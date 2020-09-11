@@ -3,10 +3,25 @@
   "version": "0.0.1",
   "description": "Make your objects iterable simplify and conveniently",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "JS",
+    "Objects",
+    "Iterable"
+  ],
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erokhin Dmitriy <dimasymbain@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sydnenaal/iterable-objects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sydnenaal/iterable-objects/issues"
+  },
+  "homepage": "https://github.com/sydnenaal/iterable-objects"
 }
