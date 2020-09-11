@@ -16,7 +16,7 @@ $ yarn add iterable-objects
 
 ## Usage
 
-```
+``` js
 const object = { a: 1, b: 2, c: 3, d: 4 };
 const iterable = new IterableObject(object);
 
