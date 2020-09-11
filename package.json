@@ -1,0 +1,12 @@
+{
+  "name": "iterable-objects",
+  "version": "0.0.1",
+  "description": "Make your objects iterable simplify and conveniently",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erokhin Dmitriy <dimasymbain@gmail.com>",
+  "license": "MIT"
+}
