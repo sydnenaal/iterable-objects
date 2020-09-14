@@ -1,8 +1,8 @@
 {
   "name": "iterable-objects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make your objects iterable simplify and conveniently",
-  "main": "lib/index.js",
+  "main": "lib/main.bundle.index.js",
   "files": [
     "lib"
   ],
@@ -12,7 +12,9 @@
     "Iterable"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "author": "Erokhin Dmitriy <dimasymbain@gmail.com>",
   "license": "MIT",
@@ -23,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/sydnenaal/iterable-objects/issues"
   },
-  "homepage": "https://github.com/sydnenaal/iterable-objects"
+  "homepage": "https://github.com/sydnenaal/iterable-objects",
+  "devDependencies": {
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
