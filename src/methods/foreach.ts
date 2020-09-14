@@ -1,6 +1,6 @@
-import { ForEachCallback } from "../types";
+import { ForEachCB } from "../types";
 
-export function forEach(callback: ForEachCallback): void {
+export function forEach(callback: ForEachCB): void {
   if (!Object.keys(this)) {
     return;
   }

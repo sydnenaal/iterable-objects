@@ -1,7 +1,7 @@
 import { IterableObject } from "../";
-import { MapCallback, Iterable } from "../types";
+import { MapCB, Iterable } from "../types";
 
-export function map(callback: MapCallback): IterableObject {
+export function map(callback: MapCB): IterableObject {
   if (!Object.keys(this)) {
     return new IterableObject({});
   }

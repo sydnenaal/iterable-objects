@@ -1,7 +1,7 @@
-import { FilterCallback, Iterable } from "../types";
+import { FilterCB, Iterable } from "../types";
 import { IterableObject } from "..";
 
-export function filter(callback: FilterCallback): IterableObject {
+export function filter(callback: FilterCB): IterableObject {
   if (!Object.keys(this)) {
     return new IterableObject({});
   }
