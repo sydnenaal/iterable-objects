@@ -1,8 +1,8 @@
 {
   "name": "iterable-objects",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Make your objects iterable simplify and conveniently",
-  "main": "lib/main.bundle.index.js",
+  "main": "./lib/main.bundle.js",
   "files": [
     "lib"
   ],
